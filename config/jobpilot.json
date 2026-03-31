@@ -1,0 +1,121 @@
+{
+  "resume_path": "C:\\Users\\DELL\\Downloads\\fullstackresume.pdf",
+  "search": {
+    "providers": [
+      "arbeitnow",
+      "remoteok"
+    ],
+    "target_titles": [
+      "Entry-Level Software Engineer",
+      "Full-Stack Developer",
+      "Python Developer",
+      "React Developer",
+      "AI Automation Engineer",
+      "Backend Developer"
+    ],
+    "keywords": [
+      "python",
+      "react",
+      "typescript",
+      "node.js",
+      "fastapi",
+      "flask",
+      "supabase",
+      "postgresql",
+      "web scraping",
+      "data pipelines",
+      "llm",
+      "openai",
+      "aws",
+      "docker",
+      "automation"
+    ],
+    "locations": [
+      "Remote",
+      "India",
+      "Mohali",
+      "Chandigarh",
+      "New Delhi",
+      "Bengaluru",
+      "Pune",
+      "Hyderabad"
+    ],
+    "minimum_score": 58,
+    "apply_threshold": 70,
+    "max_results": 40,
+    "arbeitnow_pages": 3
+  },
+  "application": {
+    "auto_apply": true,
+    "headless": false,
+    "pause_on_captcha": true,
+    "pause_on_unknown_required_fields": true,
+    "persisted_browser_dir": "data\\browser-profile",
+    "resume_upload_path": "C:\\Users\\DELL\\Downloads\\fullstackresume.pdf",
+    "auto_submit_supported_sites_only": false,
+    "supported_domains": [
+      "greenhouse.io",
+      "lever.co",
+      "ashbyhq.com"
+    ],
+    "answer_map": {
+      "work authorization": "Yes, I am authorized to work in India-based roles and open to remote roles.",
+      "visa sponsorship": "No",
+      "relocate": "Yes",
+      "notice period": "Immediate",
+      "current ctc": "Flexible / discuss later",
+      "expected ctc": "Negotiable based on role and location",
+      "gender": "Prefer not to say",
+      "disability": "Prefer not to say",
+      "veteran": "Prefer not to say",
+      "ethnicity": "Prefer not to say"
+    }
+  },
+  "email": {
+    "enabled": true,
+    "username": "rajputrashul12@gmail.com",
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "imap_host": "imap.gmail.com",
+    "imap_port": 993,
+    "app_password_env": "JOBPILOT_GMAIL_APP_PASSWORD",
+    "notify_to": "rajputrashul12@gmail.com",
+    "send_hr_outreach": true,
+    "interview_keywords": [
+      "interview",
+      "shortlisted",
+      "screening",
+      "assessment",
+      "schedule",
+      "next round",
+      "technical round",
+      "recruiter"
+    ],
+    "days_to_scan": 14
+  },
+  "profile_overrides": {
+    "target_titles": [
+      "Entry-Level Software Engineer",
+      "Full-Stack Developer",
+      "AI Automation Engineer",
+      "Python Developer"
+    ],
+    "preferred_locations": [
+      "Remote",
+      "India",
+      "Mohali",
+      "Chandigarh",
+      "New Delhi",
+      "Bengaluru"
+    ],
+    "custom_answers": {
+      "linkedin": "https://www.linkedin.com/in/rashul-rajput-a2594b24a/",
+      "github": "",
+      "portfolio": "",
+      "notice period": "Immediate",
+      "highest degree": "Bachelor of Engineering in Computer Science",
+      "graduation month year": "June 2026",
+      "university": "Chandigarh University"
+    }
+  }
+}
