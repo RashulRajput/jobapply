@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Study Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="popup-shell">
+      <header class="popup-header">
+        <h1>AI Study Assistant</h1>
+        <p>
+          Analyze the current page, get a suggested answer, and review it yourself before
+          taking any action.
+        </p>
+      </header>
+
+      <label class="field" for="apiKey">
+        <span>Gemini API Key</span>
+        <input
+          id="apiKey"
+          type="password"
+          placeholder="Paste your Gemini API key"
+          autocomplete="off"
+        />
+      </label>
+
+      <button id="analyzeButton" class="analyze-button" type="button">
+        Analyze Quiz
+      </button>
+
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+
+      <section class="result-card">
+        <h2>Question</h2>
+        <p id="questionText" class="result-text muted">No question analyzed yet.</p>
+      </section>
+
+      <section class="result-card">
+        <h2>Suggested Answer</h2>
+        <p id="answerText" class="result-text muted">Run the analysis to see a suggestion.</p>
+      </section>
+
+      <section class="result-card">
+        <h2>Explanation</h2>
+        <p id="explanationText" class="result-text muted">
+          A short explanation will appear here after analysis.
+        </p>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
